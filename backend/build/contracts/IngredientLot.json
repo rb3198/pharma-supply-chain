@@ -1,0 +1,424 @@
+{
+  "contractName": "IngredientLot",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "manufacturerId",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "price",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "quantity",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "temperatureListings",
+      "outputs": [
+        {
+          "internalType": "uint16",
+          "name": "",
+          "type": "uint16"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.6.0+commit.26b70077\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"manufacturerId\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"price\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"quantity\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"temperatureListings\",\"outputs\":[{\"internalType\":\"uint16\",\"name\":\"\",\"type\":\"uint16\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/IngredientLot.sol\":\"IngredientLot\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/IngredientLot.sol\":{\"keccak256\":\"0xc7759e4e700aa94961fdad691491bf8ba09b0033ca61dca923f7bec9180d67ea\",\"urls\":[\"bzz-raw://777df3bfeebf05c18915cab93630abbd8bbfa5a92b452e76f65bf157559bd2b4\",\"dweb:/ipfs/QmPYHuLjCHK6TWzbgJXUbL9XJoWKRPvF1LrPS668oYkSqP\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b506101bd806100206000396000f3fe608060405234801561001057600080fd5b506004361061004c5760003560e01c806317fc45e2146100515780637938100b1461006f578063a035b1fe146100b9578063d7da832c146100d7575b600080fd5b610059610121565b6040518082815260200191505060405180910390f35b61009b6004803603602081101561008557600080fd5b8101908080359060200190929190505050610127565b604051808261ffff1661ffff16815260200191505060405180910390f35b6100c161015c565b6040518082815260200191505060405180910390f35b6100df610162565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b60015481565b6003818154811061013457fe5b9060005260206000209060109182820401919006600202915054906101000a900461ffff1681565b60025481565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff168156fea26469706673582212202d1fb2c8140662c56fd98d8138479454c7c3aaaab4e622116e0ee349d3ef1e7b64736f6c63430006000033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061004c5760003560e01c806317fc45e2146100515780637938100b1461006f578063a035b1fe146100b9578063d7da832c146100d7575b600080fd5b610059610121565b6040518082815260200191505060405180910390f35b61009b6004803603602081101561008557600080fd5b8101908080359060200190929190505050610127565b604051808261ffff1661ffff16815260200191505060405180910390f35b6100c161015c565b6040518082815260200191505060405180910390f35b6100df610162565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b60015481565b6003818154811061013457fe5b9060005260206000209060109182820401919006600202915054906101000a900461ffff1681565b60025481565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff168156fea26469706673582212202d1fb2c8140662c56fd98d8138479454c7c3aaaab4e622116e0ee349d3ef1e7b64736f6c63430006000033",
+  "sourceMap": "27:162:6:-:0;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:162:6;;;;;;;",
+  "deployedSourceMap": "27:162:6:-:0;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:162:6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;93:23;;;:::i;:::-;;;;;;;;;;;;;;;;;;;150:35;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;150:35:6;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;123:20;;;:::i;:::-;;;;;;;;;;;;;;;;;;;57:29;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;93:23;;;;:::o;150:35::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;123:20::-;;;;:::o;57:29::-;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity ^0.6.0;\r\n\r\ncontract IngredientLot {\r\n    address public manufacturerId;\r\n    uint256 public quantity;\r\n    uint256 public price;\r\n    uint16[] public temperatureListings;\r\n}\r\n",
+  "sourcePath": "D:\\pharma-supply-chain\\backend\\contracts\\IngredientLot.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/IngredientLot.sol",
+    "exportedSymbols": {
+      "IngredientLot": [
+        1108
+      ]
+    },
+    "id": 1109,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1098,
+        "literals": [
+          "solidity",
+          "^",
+          "0.6",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:6"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 1108,
+        "linearizedBaseContracts": [
+          1108
+        ],
+        "name": "IngredientLot",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "functionSelector": "d7da832c",
+            "id": 1100,
+            "name": "manufacturerId",
+            "nodeType": "VariableDeclaration",
+            "overrides": null,
+            "scope": 1108,
+            "src": "57:29:6",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 1099,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "57:7:6",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "functionSelector": "17fc45e2",
+            "id": 1102,
+            "name": "quantity",
+            "nodeType": "VariableDeclaration",
+            "overrides": null,
+            "scope": 1108,
+            "src": "93:23:6",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 1101,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "93:7:6",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "functionSelector": "a035b1fe",
+            "id": 1104,
+            "name": "price",
+            "nodeType": "VariableDeclaration",
+            "overrides": null,
+            "scope": 1108,
+            "src": "123:20:6",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 1103,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "123:7:6",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "functionSelector": "7938100b",
+            "id": 1107,
+            "name": "temperatureListings",
+            "nodeType": "VariableDeclaration",
+            "overrides": null,
+            "scope": 1108,
+            "src": "150:35:6",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_array$_t_uint16_$dyn_storage",
+              "typeString": "uint16[]"
+            },
+            "typeName": {
+              "baseType": {
+                "id": 1105,
+                "name": "uint16",
+                "nodeType": "ElementaryTypeName",
+                "src": "150:6:6",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint16",
+                  "typeString": "uint16"
+                }
+              },
+              "id": 1106,
+              "length": null,
+              "nodeType": "ArrayTypeName",
+              "src": "150:8:6",
+              "typeDescriptions": {
+                "typeIdentifier": "t_array$_t_uint16_$dyn_storage_ptr",
+                "typeString": "uint16[]"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 1109,
+        "src": "27:162:6"
+      }
+    ],
+    "src": "0:191:6"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/IngredientLot.sol",
+      "exportedSymbols": {
+        "IngredientLot": [
+          1108
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.6",
+            ".0"
+          ]
+        },
+        "id": 1098,
+        "name": "PragmaDirective",
+        "src": "0:23:6"
+      },
+      {
+        "attributes": {
+          "abstract": false,
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            1108
+          ],
+          "name": "IngredientLot",
+          "scope": 1109
+        },
+        "children": [
+          {
+            "attributes": {
+              "constant": false,
+              "functionSelector": "d7da832c",
+              "name": "manufacturerId",
+              "overrides": null,
+              "scope": 1108,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "address",
+              "value": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "address",
+                  "stateMutability": "nonpayable",
+                  "type": "address"
+                },
+                "id": 1099,
+                "name": "ElementaryTypeName",
+                "src": "57:7:6"
+              }
+            ],
+            "id": 1100,
+            "name": "VariableDeclaration",
+            "src": "57:29:6"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "functionSelector": "17fc45e2",
+              "name": "quantity",
+              "overrides": null,
+              "scope": 1108,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint256",
+              "value": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "uint256",
+                  "type": "uint256"
+                },
+                "id": 1101,
+                "name": "ElementaryTypeName",
+                "src": "93:7:6"
+              }
+            ],
+            "id": 1102,
+            "name": "VariableDeclaration",
+            "src": "93:23:6"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "functionSelector": "a035b1fe",
+              "name": "price",
+              "overrides": null,
+              "scope": 1108,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint256",
+              "value": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "uint256",
+                  "type": "uint256"
+                },
+                "id": 1103,
+                "name": "ElementaryTypeName",
+                "src": "123:7:6"
+              }
+            ],
+            "id": 1104,
+            "name": "VariableDeclaration",
+            "src": "123:20:6"
+          },
+          {
+            "attributes": {
+              "constant": false,
+              "functionSelector": "7938100b",
+              "name": "temperatureListings",
+              "overrides": null,
+              "scope": 1108,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint16[]",
+              "value": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "length": null,
+                  "type": "uint16[]"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "name": "uint16",
+                      "type": "uint16"
+                    },
+                    "id": 1105,
+                    "name": "ElementaryTypeName",
+                    "src": "150:6:6"
+                  }
+                ],
+                "id": 1106,
+                "name": "ArrayTypeName",
+                "src": "150:8:6"
+              }
+            ],
+            "id": 1107,
+            "name": "VariableDeclaration",
+            "src": "150:35:6"
+          }
+        ],
+        "id": 1108,
+        "name": "ContractDefinition",
+        "src": "27:162:6"
+      }
+    ],
+    "id": 1109,
+    "name": "SourceUnit",
+    "src": "0:191:6"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.6.0+commit.26b70077.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.11",
+  "updatedAt": "2023-01-26T07:18:29.988Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
